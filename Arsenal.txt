@@ -1,0 +1,49 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("Discord")
+
+local serv = win:Server("Ry's Arsenal Discord GUI", "")
+
+local btns = serv:Channel("Arsenal scripts")
+
+btns:Button("V.G hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Roblox_Scripts/main/Arsenal%20V.G.lua"))()
+DiscordLib:Notification("Notification", "Script Executed!", "Okay!")
+end)
+
+btns:Button("Dex hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Roblox_Scripts/main/Arsenal%20DexHub.lua"))()
+DiscordLib:Notification("Notification", "Script Executed!", "Okay!")
+end)
+
+local server = win:Server("Atlas", "")
+
+local Tbh = server:Channel("Made by wello")
+
+local textbs = server:Channel("Textboxes")
+
+local lbls = server:Channel("Announcements")
+
+lbls:Label("Announcements")
+lbls:Label(" ")
+lbls:Label(" Important announcements to staff will be posted here by")
+lbls:Label("@ Administration Team 's and @ Development Team 's. ")
+lbls:Label(" NEW! UI almost done!")
+lbls:Label(" OK, so since it's releasing soon and everyone is ")
+lbls:Label("waiting we are going to send alot of pics of the UI.")
+lbls:Label(" (we basically copy and pasted the synapse x UI). ")
+Tbh:Label("And i am an admin")
+Tbh:Label("Ry0511#3149 :>")
+
+textbs:Textbox("Text", "Type here!", true, function(t)
+print(t)
+end)
+
+local Tbhh = serv:Channel("Made by Ry")
+
+Tbhh:Label("yeah i totally made this lol")
+Tbhh:Label(" go to atlas server :) ")
+Tbhh:Label("https://dsc.gg/atlasx")
+
+win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
