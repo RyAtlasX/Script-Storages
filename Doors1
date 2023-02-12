@@ -3,7 +3,7 @@ local DiscordLib =
 
 local win = DiscordLib:Window("Discord")
 
-local serv = win:Server("Ry's Doors Discord GUI", "http://www.roblox.com/asset/?id=6031075938")
+local serv = win:Server("Ry's Doors Discord", "http://www.roblox.com/asset/?id=6031075938")
 
 local btns = serv:Channel("Doors scripts")
 
