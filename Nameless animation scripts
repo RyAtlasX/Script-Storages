@@ -1,0 +1,29 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/RyAtlasX/test/main/Discord%20Libs")()
+
+local win = DiscordLib:Window("Discord")
+
+local serv = win:Server("Nameless animations GUI", "")
+
+local btns = serv:Channel("Scripts")
+
+btns:Button("Nameless animation V2", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/test/main/nameless%20animationV2.lua"))()
+DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
+end)
+
+
+btns:Button("Nameless animation V3", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/test/main/nameless%20animation%20v3.lua"))()
+DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
+end)
+
+btns:Button("Nameless animation V4", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/test/main/nameless%20animationV4.lua"))()
+DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
+end)
+
+btns:Button("Nameless animation V5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/test/main/nameless%20animationV5.lua"))()
+DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
+end)
