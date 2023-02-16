@@ -1,0 +1,4 @@
+-- Methods
+local Methods = loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Script-Storages/main/MENTODS%20grandmaster%20fe"))()
+Methods:PlaySound(12495566398, true)
+Methods:RunScript()
