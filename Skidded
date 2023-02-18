@@ -1,0 +1,257 @@
+-- my code sucks go away
+
+-- Instances:
+
+local SKIDDEDV2 = Instance.new("ScreenGui")
+local TopBar = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TopText = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local PrisonLife = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local LegacyHub = Instance.new("TextButton")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local Autorob = Instance.new("TextButton")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local OwlHub = Instance.new("TextButton")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local Aimbot = Instance.new("TextButton")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local GabX = Instance.new("TextButton")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local FlingGUI = Instance.new("TextButton")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local ClickTP = Instance.new("TextButton")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local GrabKnifeV4 = Instance.new("TextButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local TrollGUI = Instance.new("TextButton")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local BottomBar = Instance.new("Frame")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local Bottomtext = Instance.new("TextLabel")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+SKIDDEDV2.Name = "SKIDDED V2"
+SKIDDEDV2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SKIDDEDV2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TopBar.Name = "TopBar"
+TopBar.Parent = SKIDDEDV2
+TopBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopBar.BackgroundTransparency = 0.500
+TopBar.Position = UDim2.new(0.719543099, 0, 0.713759243, 0)
+TopBar.Size = UDim2.new(0, 427, 0, 179)
+
+UIAspectRatioConstraint.Parent = TopBar
+UIAspectRatioConstraint.AspectRatio = 2.385
+
+TopText.Name = "TopText"
+TopText.Parent = SKIDDEDV2
+TopText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopText.BackgroundTransparency = 1.000
+TopText.Position = UDim2.new(0.791243613, 0, 0.713759243, 0)
+TopText.Size = UDim2.new(0, 200, 0, 25)
+TopText.Font = Enum.Font.GothamBlack
+TopText.Text = "Skidded V2"
+TopText.TextColor3 = Color3.fromRGB(255, 255, 255)
+TopText.TextSize = 14.000
+
+UIAspectRatioConstraint_2.Parent = TopText
+UIAspectRatioConstraint_2.AspectRatio = 8.000
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = SKIDDEDV2
+PrisonLife.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLife.BorderSizePixel = 0
+PrisonLife.Position = UDim2.new(0.863578677, 0, 0.902948439, 0)
+PrisonLife.Size = UDim2.new(0, 200, 0, 25)
+PrisonLife.Font = Enum.Font.GothamBold
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.TextSize = 14.000
+PrisonLife.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+end)
+
+UIAspectRatioConstraint_3.Parent = PrisonLife
+UIAspectRatioConstraint_3.AspectRatio = 8.000
+
+LegacyHub.Name = "Legacy Hub"
+LegacyHub.Parent = SKIDDEDV2
+LegacyHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LegacyHub.BorderSizePixel = 0
+LegacyHub.Position = UDim2.new(0.718908668, 0, 0.743243277, 0)
+LegacyHub.Size = UDim2.new(0, 200, 0, 25)
+LegacyHub.Font = Enum.Font.GothamBold
+LegacyHub.Text = "Legacy Hub"
+LegacyHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+LegacyHub.TextSize = 14.000
+LegacyHub.MouseButton1Click:connect(function()
+loadstring(game:GetObjects("rbxassetid://1683559539")[1].Source)()
+end)
+
+UIAspectRatioConstraint_4.Parent = LegacyHub
+UIAspectRatioConstraint_4.AspectRatio = 8.000
+
+Autorob.Name = "Autorob"
+Autorob.Parent = SKIDDEDV2
+Autorob.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Autorob.BorderSizePixel = 0
+Autorob.Position = UDim2.new(0.863578677, 0, 0.743243277, 0)
+Autorob.Size = UDim2.new(0, 200, 0, 25)
+Autorob.Font = Enum.Font.GothamBold
+Autorob.Text = "Autorob"
+Autorob.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autorob.TextSize = 14.000
+Autorob.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://1461971147")[1].Source)()
+end)
+
+UIAspectRatioConstraint_5.Parent = Autorob
+UIAspectRatioConstraint_5.AspectRatio = 8.000
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = SKIDDEDV2
+OwlHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0.863578558, 0, 0.861179411, 0)
+OwlHub.Size = UDim2.new(0, 200, 0, 25)
+OwlHub.Font = Enum.Font.GothamBold
+OwlHub.Text = "OwlHub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 14.000
+OwlHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+UIAspectRatioConstraint_6.Parent = OwlHub
+UIAspectRatioConstraint_6.AspectRatio = 8.000
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = SKIDDEDV2
+Aimbot.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.863578677, 0, 0.782555223, 0)
+Aimbot.Size = UDim2.new(0, 200, 0, 25)
+Aimbot.Font = Enum.Font.GothamBold
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.TextSize = 14.000
+Aimbot.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/qyhQ6wGu"))();
+end)
+
+UIAspectRatioConstraint_7.Parent = Aimbot
+UIAspectRatioConstraint_7.AspectRatio = 8.000
+
+GabX.Name = "GabX"
+GabX.Parent = SKIDDEDV2
+GabX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GabX.BorderSizePixel = 0
+GabX.Position = UDim2.new(0.718908668, 0, 0.781326771, 0)
+GabX.Size = UDim2.new(0, 200, 0, 25)
+GabX.Font = Enum.Font.GothamBold
+GabX.Text = "GabX"
+GabX.TextColor3 = Color3.fromRGB(255, 255, 255)
+GabX.TextSize = 14.000
+GabX.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/EntUzD5J", true))();
+end)
+
+UIAspectRatioConstraint_8.Parent = GabX
+UIAspectRatioConstraint_8.AspectRatio = 8.000
+
+FlingGUI.Name = "FlingGUI"
+FlingGUI.Parent = SKIDDEDV2
+FlingGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FlingGUI.BorderSizePixel = 0
+FlingGUI.Position = UDim2.new(0.718908668, 0, 0.90294838, 0)
+FlingGUI.Size = UDim2.new(0, 200, 0, 25)
+FlingGUI.Font = Enum.Font.GothamBold
+FlingGUI.Text = "Fling GUI"
+FlingGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlingGUI.TextSize = 14.000
+FlingGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Pb3PR6EL", true))();
+end)
+
+UIAspectRatioConstraint_9.Parent = FlingGUI
+UIAspectRatioConstraint_9.AspectRatio = 8.000
+
+ClickTP.Name = "ClickTP"
+ClickTP.Parent = SKIDDEDV2
+ClickTP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ClickTP.BorderSizePixel = 0
+ClickTP.Position = UDim2.new(0.863578618, 0, 0.821867347, 0)
+ClickTP.Size = UDim2.new(0, 200, 0, 25)
+ClickTP.Font = Enum.Font.GothamBold
+ClickTP.Text = "ClickTP"
+ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickTP.TextSize = 14.000
+ClickTP.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/16tXkJjD", true))();
+end)
+
+UIAspectRatioConstraint_10.Parent = ClickTP
+UIAspectRatioConstraint_10.AspectRatio = 8.000
+
+GrabKnifeV4.Name = "GrabKnifeV4"
+GrabKnifeV4.Parent = SKIDDEDV2
+GrabKnifeV4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GrabKnifeV4.BorderSizePixel = 0
+GrabKnifeV4.Position = UDim2.new(0.718908668, 0, 0.821867406, 0)
+GrabKnifeV4.Size = UDim2.new(0, 200, 0, 25)
+GrabKnifeV4.Font = Enum.Font.GothamBold
+GrabKnifeV4.Text = "Grab Knife V4"
+GrabKnifeV4.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabKnifeV4.TextSize = 14.000
+GrabKnifeV4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7zK1Swpt", true))();
+end)
+
+UIAspectRatioConstraint_11.Parent = GrabKnifeV4
+UIAspectRatioConstraint_11.AspectRatio = 8.000
+
+TrollGUI.Name = "Troll GUI"
+TrollGUI.Parent = SKIDDEDV2
+TrollGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TrollGUI.BorderSizePixel = 0
+TrollGUI.Position = UDim2.new(0.718908668, 0, 0.861179352, 0)
+TrollGUI.Size = UDim2.new(0, 200, 0, 25)
+TrollGUI.Font = Enum.Font.GothamBlack
+TrollGUI.Text = "Troll GUI"
+TrollGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+TrollGUI.TextSize = 14.000
+TrollGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
+end)
+
+UIAspectRatioConstraint_12.Parent = TrollGUI
+UIAspectRatioConstraint_12.AspectRatio = 8.000
+
+BottomBar.Name = "BottomBar"
+BottomBar.Parent = SKIDDEDV2
+BottomBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BottomBar.BackgroundTransparency = 0.500
+BottomBar.Position = UDim2.new(0.718908608, 0, 0.933660924, 0)
+BottomBar.Size = UDim2.new(0, 427, 0, 29)
+
+UIAspectRatioConstraint_13.Parent = BottomBar
+UIAspectRatioConstraint_13.AspectRatio = 14.724
+
+Bottomtext.Name = "Bottomtext"
+Bottomtext.Parent = SKIDDEDV2
+Bottomtext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bottomtext.BackgroundTransparency = 1.000
+Bottomtext.Position = UDim2.new(0.791243672, 0, 0.938575029, 0)
+Bottomtext.Size = UDim2.new(0, 200, 0, 24)
+Bottomtext.Font = Enum.Font.GothamBlack
+Bottomtext.Text = "I swear to god i cannot make this gui look good"
+Bottomtext.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bottomtext.TextSize = 14.000
+
+UIAspectRatioConstraint_14.Parent = Bottomtext
+UIAspectRatioConstraint_14.AspectRatio = 8.333
