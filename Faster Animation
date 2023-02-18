@@ -1,0 +1,10 @@
+--Made by DivineDevon
+local p = game.Players.LocalPlayer
+local c = p.Character
+repeat
+    for _,v in pairs(c.Humanoid:GetPlayingAnimationTracks()) do 
+        v:AdjustSpeed(3) 
+
+    end
+    game:GetService("RunService").Stepped:wait()
+until c.Humanoid.Health == 0
