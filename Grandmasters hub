@@ -8,7 +8,7 @@ local serv = win:Server("Grandmasters GUI", "")
 local btns = serv:Channel("Scripts")
 
 btns:Button("FE Grandmaster", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Roblox_Scripts/main/FE%20Grandmaster.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Script-Storages/main/e"))()
 DiscordLib:Notification("Notification", "Script Successfully Executed!", "Okay!")
 end)
 
