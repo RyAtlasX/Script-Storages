@@ -10,14 +10,14 @@ local Window = Rayfield:CreateWindow({
     },
     Discord = {
        Enabled = true,
-       Invite = "Dv36S9ff52",
+       Invite = "tzAsunjkXy",
        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     },
     KeySystem = true, -- Set this to true to use our key system
     KeySettings = {
        Title = "Atlas Hub v1.0",
        Subtitle = "Key System",
-       Note = "Join the discord (discord.gg/Dv36S9ff52) for your key.",
+       Note = "Join the discord (discord.gg/tzAsunjkXy) for your key.",
        FileName = "Pepsikey",
        SaveKey = true,
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
