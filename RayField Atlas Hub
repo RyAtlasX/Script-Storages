@@ -286,6 +286,6 @@ local Button = ScriptsTab:CreateButton({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RyAtlasX/Roblox_Scripts/main/Eclipse%20hub.lua"))()
     end,
  })
-local Paragraph = ChangeTab:CreateParagraph({Title = "Release 1.0", Content = "The Rayfield of Atlas Hub is here!)"})
+local Paragraph = ChangeTab:CreateParagraph({Title = "Release 1.0", Content = "The Rayfield version of Atlas Hub is here!)"})
 local Paragraph = ChangeTab:CreateParagraph({Title = "Update 1.1:", Content = "Update soon!)"})
 local Paragraph = HelpTab:CreateParagraph({Title = "What is netless?", Content = "When you use FE scripts, It relies on taking your limbs and rearranging them, Sometimes it will fail, and the script wont work, Netless prevents this."})
